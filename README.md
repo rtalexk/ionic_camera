@@ -1,0 +1,1 @@
+Aplicación con Ionic3 para el uso nativo de la cámara

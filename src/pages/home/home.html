@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons right>
+      <button ion-button icon-only (click)='onCamera()'>
+        <ion-icon name='camera'></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>
+      Camera
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <img [src]="photoURL" />
+</ion-content>
